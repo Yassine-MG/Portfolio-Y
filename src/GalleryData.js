@@ -86,7 +86,7 @@ export const GalleryData =[
         link:"https://yassine-mg.github.io/Quote/",
         id:9,
         title: "Javascript",
-        image:"./images/quotes.png",
+        image:"./images/Quotes.png",
         down:"bottom-[-40px]",
         up:"bottom-[0]"
     },
