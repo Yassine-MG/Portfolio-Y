@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #1b1b1b; */
+  /* height: 400vh; */
+  overflow-x: hidden;
+}
+.images{
+  filter: grayscale(100%);
+  transition: all 0.2s ease-in-out;
+}
+.container-image:hover .images{
+  filter: grayscale(0%);
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+html {
+  scroll-behavior: smooth;
+}
+.Yassine{
+  background: linear-gradient(to right, #5d4157, #90d2b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Profil-img{
+  background-image: url(./img/Profil.jpg);
+  filter:grayscale(100);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 9px rgb(255 255 255 /30%);
+  order: 1;
+  justify-self: center;
+  width: 300px;
+  height: 300px;
+  animation: profile__animate 8s ease-in-out infinite 1s;
+}
+
+.progress{
+  border: #2d3f50 1px solid;
+  background-color: #000000;
+  border-radius: 0px;
+}
+.progress-bars{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+@keyframes profile__animate{
+  0%{
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    /* border-radius: a b c d/e f g h; */
+
+  }
+  50%{
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+ 100%{
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+@media screen and (max-width: 775px){
+
+  .icones{
+   display: none;
+  }
+  
+}
+@media screen and (max-width: 590px){
+  .Profil-img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.title-2{
+  opacity: 0;
+  filter: blur(10px);
+  transition: all ease-in-out 0.4s;
+}
+.container-image:hover .title-2{
+  opacity: 1;
+  filter: blur(0px);
+}
+.description{
+  opacity: 0;
+  transition: all ease-in-out 0.2s;
+}
+.description:hover{
+  opacity: 1;
+}
+@media screen and (max-width: 770px) {
+  .description{
+    opacity: 1;
+  }
+  .title-2{
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+.title {
+  animation: animate 1s linear forwards;
+}
+@keyframes animate{
+  0%{
+    opacity: 0;
+    filter: blur(10px);
+  }
+ 100%{
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+::selection{
+  background-color: #578890;
+}
+
