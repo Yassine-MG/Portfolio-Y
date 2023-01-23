@@ -1,7 +1,12 @@
 import React from "react";
 export default function Home() {
   return (
-    <div data-aos="fade-down" data-aos-duration="1500" className="my-20">
+    <div
+      id="Home"
+      data-aos="fade-down"
+      data-aos-duration="1500"
+      className="my-20"
+    >
       <div className="container-home pt-[80px] mb-10 md:static flex-wrap-reverse justify-around flex w-[85%] md:w-[75%] mx-auto relative  md:z-auto">
         <div>
           <p className=" text-silver dark:text-darkGray font-bold mt-[50px]">

@@ -34,9 +34,8 @@ export default function Navbar() {
             }}
           >
             <a
-              className=" text-orange dark:text-darkG+
-              ray hover:text-[#d6bf91] transition-all duration-200 px-5 md:py-3 md:my-2 py-4 block font-semibold"
-              href="#"
+              className="  text-orange dark:text-darkGray hover:text-[#d6bf91] transition-all duration-200 px-5 md:py-3 md:my-2 py-4 block font-semibold"
+              href="#Home"
             >
               Home
             </a>
