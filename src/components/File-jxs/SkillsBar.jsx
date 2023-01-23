@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function SkillsBar(prop) {
+  // La creation du components des bars
   return (
     <div className="skill-box md:w-[70%] w-[90%]">
       <span

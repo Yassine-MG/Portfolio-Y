@@ -4,6 +4,7 @@ import { TbMoon } from "react-icons/tb";
 export default function Navbar() {
   let [open, setOpen] = useState(false);
   const [theme, setTheme] = useState("light");
+  // la creation de l'effet du dark/light mode
   useEffect(() => {
     if (theme === "light") {
       document.documentElement.classList.add("dark");
@@ -11,6 +12,9 @@ export default function Navbar() {
       document.documentElement.classList.remove("dark");
     }
   }, [theme]);
+  {
+    /* La creation du toggle qui switch entre le dark mode et light mode  */
+  }
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
@@ -19,8 +23,9 @@ export default function Navbar() {
       <h1 className="title py-6 px-8 text-3xl font-light tracking-[5px] italic">
         Yassine
       </h1>
+      {/* setting the toggle on the button */}
       <button className="text-2xl" onClick={handleThemeSwitch}>
-        {theme === "dark" ? <TbMoon /> : <WiDaySunny />}
+        {theme === "dark" ? <WiDaySunny /> : <TbMoon />}
       </button>
       <nav>
         <ul
@@ -95,7 +100,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className="md:py-[10px] md:my-2 px-5 border-[1px] dark:hover:text-[#6f537a] dark:hover:border-darkGray dark:border-transparent hover:scale-110 border-transparent w-[105px] mr-10 transition-all duration-200 rounded-full hover:border-silver py-[10px] block dark:bg-[#90909082] bg-stone-700 text-lg"
+              className="md:py-[10px] md:my-2 px-5 border-[1px] dark:hover:text-[#6f537a] dark:hover:border-darkGray dark:border-transparent hover:scale-110 border-transparent w-[105px] mr-10 transition-all duration-100 rounded-full hover:border-silver py-[10px] block dark:bg-[#90909082] bg-stone-700 text-lg"
               href="https://yassine-mg.github.io/CVs/"
               target="_blank"
             >

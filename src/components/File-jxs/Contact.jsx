@@ -7,9 +7,11 @@ export default function Contact() {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
 
+  // setting the state in the variable
   const handleMessage = (e) => {
     setMessage(e.target.value);
   };
+
   const handleEmail = (e) => {
     setEmail(e.target.value);
   };
@@ -19,6 +21,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
+      // setting the emailJs on the input
       .sendForm(
         "service_rpvi6up",
         "template_x4bkldj",
@@ -34,6 +37,7 @@ export default function Contact() {
           console.log(error.text);
         }
       );
+    // vider les input
     setName("");
     setMessage("");
     setEmail("");

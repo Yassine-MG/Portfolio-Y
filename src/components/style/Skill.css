@@ -23,7 +23,7 @@
     animation-delay: 0.1s;
     width: 60%;
 }
-
+/* La Creation Animation des bars de progress */
 @keyframes progress{
     0%{
         width: 0;

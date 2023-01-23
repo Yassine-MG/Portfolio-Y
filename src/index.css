@@ -56,11 +56,11 @@ html {
   margin-left: 30px;
   margin-top: 20px;
 }
+/* Animation du portrait */
 @keyframes profile__animate{
   0%{
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    /* border-radius: a b c d/e f g h; */
-
+    /* border-radius: a b c d / e f g h; */
   }
   50%{
     border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
@@ -69,7 +69,7 @@ html {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
-
+/* La responsiviter des icones  */
 @media screen and (max-width: 775px){
 
   .icones{

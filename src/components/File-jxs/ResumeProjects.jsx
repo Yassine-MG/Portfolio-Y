@@ -5,10 +5,9 @@ import { AnimatePresence, motion } from "framer-motion";
 export default function ResumeProjects() {
   const [data, setData] = useState([]);
   const [collection, setCollection] = useState([]);
-  let [open, setOpen] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(-1);
 
-  // Setting the images of projects
+  // Gallerydata c'est le tableau qui englobe les informations de chaque box
+  // Setting the gallerydata on the Data
   useEffect(() => {
     setData(GalleryData);
     setCollection([...new Set(GalleryData.map((item) => item.title))]);
@@ -17,10 +16,6 @@ export default function ResumeProjects() {
   const gallery_filter = (itemData) => {
     const filterData = GalleryData.filter((item) => item.title == itemData);
     setData(filterData);
-  };
-
-  const handleClick = (index) => {
-    setSelectedIndex(index);
   };
 
   return (
@@ -76,7 +71,7 @@ export default function ResumeProjects() {
             {/* la liste des images */}
             {/* AnimatePresence is the animation on the list*/}
             <AnimatePresence>
-              {data.map((item, index) => (
+              {data.map((item) => (
                 <motion.div
                   layout
                   initial={{ opacity: 0 }}

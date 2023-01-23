@@ -6,6 +6,7 @@ import ResumeProjects from "./ResumeProjects";
 import Skills from "./Skills";
 import Contact from "./Contact";
 export default function Portefolio() {
+  // Tout le portefolio
   return (
     <div className=" bg-darkGray dark:bg-beige transition-all duration-500 ease-in">
       <Navbar />

@@ -34,30 +34,31 @@ export default function Home() {
           <i className="bi bi-chevron-down"></i>
         </a>
       </div>
+      {/* Les icones des reseaux sociaux */}
       <div className="icones z-10 flex flex-col md:fixed top-[40%] left-[3%]">
         <a
-          className=" hover:text-[#0077b0] transition-all duration-300 ease-in-out dark:text-darkPink dark:hover:text-[#0077b0] text-pink-500 my-3 text-[25px]"
+          className=" hover:text-[#0077b0] transition-all duration-300 ease-in-out dark:text-darkPink dark:hover:text-[#0077b0] text-violet-400 my-3 text-[25px]"
           href="https://www.linkedin.com/in/yassine-mghazli-2ab274251/"
           target="_blank"
         >
           <i className="bi bi-linkedin"></i>{" "}
         </a>
         <a
-          className=" hover:text-[#7b2586] transition-all duration-300 ease-in-out dark:text-darkPink dark:hover:text-[#7b2586] text-pink-500 my-3 text-[25px]"
+          className=" hover:text-[#7b2586] transition-all duration-300 ease-in-out dark:text-darkPink dark:hover:text-[#7b2586] text-violet-400 my-3 text-[25px]"
           href="https://github.com/Yassine-MG"
           target="_blank"
         >
           <i className="bi bi-github"></i>
         </a>
         <a
-          className="hover:text-[#cd216e] transition-all duration-300 ease-in-out dark:text-darkPink dark:hover:text-[#cd216e] text-pink-500 my-3 text-[25px]"
+          className="hover:text-[#cd216e] transition-all duration-300 ease-in-out dark:text-darkPink dark:hover:text-[#cd216e] text-violet-400 my-3 text-[25px]"
           href="https://www.instagram.com/yassine_mghazli/"
           target="_blank"
         >
           <i className="bi bi-instagram"></i>
         </a>
         <a
-          className="hover:text-[#2ba5da] transition-all duration-300 ease-in-out dark:text-darkPink dark:hover:text-[#2ba5da] text-pink-500 my-3 text-[25px]"
+          className="hover:text-[#2ba5da] transition-all duration-300 ease-in-out dark:text-darkPink dark:hover:text-[#2ba5da] text-violet-400 my-3 text-[25px]"
           href="https://twitter.com/YassineMghazli"
           target="_blank"
         >
