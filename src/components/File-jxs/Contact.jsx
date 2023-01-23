@@ -124,6 +124,11 @@ export default function Contact() {
             <i className="bi bi-twitter"></i>
           </a>
         </div>
+        <div className="fixed bottom-0 right-0 mr-5 mb-5 ">
+          <a href="#">
+            <i className="fa-solid fa-chevron-up bg-orange p-3 text-xs rounded-full"></i>
+          </a>
+        </div>
       </footer>
     </div>
   );
