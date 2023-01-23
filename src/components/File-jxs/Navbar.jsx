@@ -34,7 +34,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className="  text-orange dark:text-darkGray hover:text-[#d6bf91] transition-all duration-200 px-5 md:py-3 md:my-2 py-4 block font-semibold"
+              className="  text-orange dark:text-darkGray dark:hover:text-[#6f537a] hover:text-[#d6bf91] transition-all duration-200 px-5 md:py-3 md:my-2 py-4 block font-semibold"
               href="#Home"
             >
               Home
@@ -46,7 +46,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className=" text-orange dark:text-darkGray hover:text-[#d6bf91] transition-all duration-200 px-5  md:py-3 md:my-2 py-4 block font-semibold"
+              className=" text-orange dark:text-darkGray dark:hover:text-[#6f537a] hover:text-[#d6bf91] transition-all duration-200 px-5  md:py-3 md:my-2 py-4 block font-semibold"
               href="#About"
             >
               About
@@ -58,7 +58,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className=" text-orange dark:text-darkGray hover:text-[#d6bf91] transition-all duration-200 px-5  md:py-3 md:my-2 py-4 block font-semibold"
+              className=" text-orange dark:hover:text-[#6f537a] dark:text-darkGray hover:text-[#d6bf91] transition-all duration-200 px-5  md:py-3 md:my-2 py-4 block font-semibold"
               href="#portfolio"
             >
               Projects
@@ -70,7 +70,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className=" text-orange dark:text-darkGray hover:text-[#d6bf91] transition-all duration-200 px-5  md:py-3 md:my-2 py-4 block font-semibold"
+              className=" text-orange dark:text-darkGray dark:hover:text-[#6f537a] hover:text-[#d6bf91] transition-all duration-200 px-5  md:py-3 md:my-2 py-4 block font-semibold"
               href="#Skills"
             >
               Skills
@@ -82,7 +82,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className=" md:py-3 dark:text-darkGray hover:text-[#d6bf91] transition-all duration-200 md:my-2 text-orange mr-[20px]  px-5 py-4 block font-semibold"
+              className=" md:py-3 dark:text-darkGray dark:hover:text-[#6f537a] hover:text-[#d6bf91] transition-all duration-200 md:my-2 text-orange mr-[20px]  px-5 py-4 block font-semibold"
               href="#Contact"
             >
               Contact
@@ -95,7 +95,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className="md:py-[10px] md:my-2 px-5 border-[1px] dark:hover:border-darkGray dark:border-transparent hover:scale-110 border-transparent w-[105px] mr-10 transition-all duration-200 rounded-full hover:border-silver py-[10px] block dark:bg-[#90909082] bg-stone-700 text-lg"
+              className="md:py-[10px] md:my-2 px-5 border-[1px] dark:hover:text-[#6f537a] dark:hover:border-darkGray dark:border-transparent hover:scale-110 border-transparent w-[105px] mr-10 transition-all duration-200 rounded-full hover:border-silver py-[10px] block dark:bg-[#90909082] bg-stone-700 text-lg"
               href="https://yassine-mg.github.io/CVs/"
               target="_blank"
             >
