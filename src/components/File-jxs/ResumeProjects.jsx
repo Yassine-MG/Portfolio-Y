@@ -90,6 +90,7 @@ export default function ResumeProjects() {
                     <img
                       className="images h-full rounded-t-lg "
                       src={item.image}
+                      alt="images"
                     />
                     <div className=" description md:block text-lg md:rounded-t-lg  text-silver font-bold  md:p-2 p-1 bg-[#1d1c1c9b] absolute  md:top-[0px] md:h-full w-[100%]">
                       <h3 className="title-2 md:text-center">{item.h3}</h3>
