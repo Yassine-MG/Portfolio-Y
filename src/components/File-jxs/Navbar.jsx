@@ -75,18 +75,6 @@ export default function Navbar() {
             }}
           >
             <a
-              className=" text-orange dark:text-darkGray dark:hover:text-[#6f537a] hover:text-[#d6bf91] transition-all duration-200 px-5  md:py-3 md:my-2 py-4 block font-semibold"
-              href="#Skills"
-            >
-              Skills
-            </a>
-          </li>
-          <li
-            onClick={() => {
-              setOpen(!open);
-            }}
-          >
-            <a
               className=" md:py-3 dark:text-darkGray dark:hover:text-[#6f537a] hover:text-[#d6bf91] transition-all duration-200 md:my-2 text-orange mr-[20px]  px-5 py-4 block font-semibold"
               href="#Contact"
             >
