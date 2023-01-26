@@ -130,7 +130,7 @@ export default function Contact() {
         </div>
         <div className="fixed bottom-0 right-0 mr-5 mb-5 ">
           <a href="#">
-            <i className="fa-solid fa-chevron-up transition duration-200 hover:scale-110 hover:bg-[#90909082] bg-orange p-3 text-xs rounded-full hidden md:block"></i>
+            <i className="fa-solid fa-chevron-up transition duration-200 hover:scale-110 hover:bg-[#90909082] bg-orange dark:bg-[#8bc4aa] dark:hover:bg-[#90909082] p-3 text-xs rounded-full hidden md:block"></i>
           </a>
         </div>
       </footer>
