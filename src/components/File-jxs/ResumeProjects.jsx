@@ -19,12 +19,7 @@ export default function ResumeProjects() {
   };
 
   return (
-    <section
-      data-aos="flip-left"
-      data-aos-duration="2000"
-      id="portfolio"
-      className="section min-h-[900px]"
-    >
+    <section id="portfolio" className="section min-h-[900px]">
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-justify md:text-center">
           {" "}

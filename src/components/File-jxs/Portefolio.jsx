@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
 import ResumeProjects from "./ResumeProjects";
-import Skills from "./Skills";
 import Contact from "./Contact";
 export default function Portefolio() {
   // Tout le portefolio
@@ -13,7 +12,6 @@ export default function Portefolio() {
       <Home />
       <About />
       <ResumeProjects />
-      <Skills />
       <Contact />
     </div>
   );
