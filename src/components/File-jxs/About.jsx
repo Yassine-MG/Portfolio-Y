@@ -1,7 +1,7 @@
 import React from "react";
 export default function About() {
   return (
-    <div id="About" className="md:mt-30 mb-[150px]">
+    <div id="About" className="md:mt-30">
       <h2 className="text-center mt-[100px] dark:text-darkPink text-orange text-4xl p-2 mb-[150px]">
         About Me
       </h2>

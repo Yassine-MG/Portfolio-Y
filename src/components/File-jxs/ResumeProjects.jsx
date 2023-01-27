@@ -31,6 +31,7 @@ export default function ResumeProjects() {
           d="M0,160L1440,32L1440,0L0,0Z"
         ></path>
       </svg>
+
       <div className="container mx-auto">
         <div
           data-aos="fade-up"
