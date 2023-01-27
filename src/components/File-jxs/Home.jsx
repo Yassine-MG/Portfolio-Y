@@ -5,7 +5,7 @@ export default function Home() {
       id="Home"
       data-aos="fade-down"
       data-aos-duration="1500"
-      className="my-20"
+      className="my-20 lg:pt-[110px] pt-0"
     >
       <div className="container-home pt-[80px] mb-10 md:static flex-wrap-reverse justify-around flex w-[85%] md:w-[75%] mx-auto relative  md:z-auto">
         <div>
@@ -18,7 +18,7 @@ export default function Home() {
           <h2 className="Yassine font-bold md:w-[530px] md:text-[40px] text-[30px]">
             I'm a Full-Stack developer
           </h2>
-          <p className=" mt-5 md:w-[530px] dark:text-darkGray text-silver text-justify tracking-[2px] font-semibold ">
+          <p className=" mt-5 md:w-[530px] dark:text-darkGray text-silver text-lg text-justify tracking-[2px] font-semibold ">
             I specialize in Website & Mobile App developement, Based in
             Marrakech and open to Job mobility Scroll down to know more about me
             !

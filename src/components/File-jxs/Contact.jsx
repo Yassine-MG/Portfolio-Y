@@ -46,7 +46,7 @@ export default function Contact() {
     <div>
       <div id="Contact" className=" lg:flex mx-auto mt-20 py-20 justify-center">
         <div className="lg:w-[40%] md:w-[80%] w-[85%] md:mx-auto mx-auto lg:mr-20">
-          <h2 className="text-silver dark:text-darkGray text-center text-4xl mb-[50px]">
+          <h2 className="text-orange  dark:text-orange text-center text-4xl mb-[50px]">
             Get In Touch
           </h2>
           <p className="text-silver dark:text-darkGray font-bold text-lg leading-10 text-justify">
@@ -84,44 +84,44 @@ export default function Contact() {
             />
             <button
               type="submit"
-              className="block dark:bg-[#90909082] dark:text-darkGray font-semibold dark:hover:border-darkGray  bg-[#44403c] text-silver py-2 px-5 rounded-full borde-1 border border-transparent  mt-5 mx-auto hover:scale-110 transition-all duration-300 hover:border-[#abbaab]"
+              className="block dark:bg-[#90909082] dark:text-darkGray font-semibold dark:hover:border-darkGray bg-[#44403c] text-silver py-2 px-5 rounded-full borde-1 border border-transparent  mt-5 mx-auto hover:scale-110 transition-all duration-300 hover:border-[#abbaab]"
             >
               Send Message
             </button>
           </form>
         </div>
       </div>
-      <footer className=" w-[100%] text-center dark:bg-darkGray bg-silver py-[20px]">
-        <h4 className="text-md py-2 dark:text-silver text-darkGray font-semibold">
+      <footer className=" w-[100%] text-center dark:bg-darkGray bg-[#343333] py-[20px]">
+        <h4 className="text-md py-2 dark:text-silver text-[#dae0da] font-semibold">
           Made with
         </h4>
-        <h2 className="text-2xl pb-2 dark:text-silver text-darkGray font-semibold">
+        <h2 className="text-2xl pb-2 dark:text-silver text-[#dae0da] font-semibold">
           React Js
         </h2>
         <div className="md:hidden ">
           <a
-            className=" hover:text-[#0077b0] transition-all duration-300 ease-in-out px-5 dark:hover:text-[#0077b0] dark:text-silver text-darkGray my-3 text-[25px]"
+            className=" hover:text-[#0077b0] transition-all duration-300 ease-in-out px-5 dark:hover:text-[#0077b0] dark:text-silver text-[#dae0da] my-3 text-[25px]"
             href="https://www.linkedin.com/in/yassine-mghazli-2ab274251/"
             target="_blank"
           >
             <i className="bi bi-linkedin"></i>{" "}
           </a>
           <a
-            className=" hover:text-[#7b2586] transition-all duration-300 ease-in-out px-5 dark:hover:text-[#7b2586] dark:text-silver text-darkGray my-3 text-[25px]"
+            className=" hover:text-[#7b2586] transition-all duration-300 ease-in-out px-5 dark:hover:text-[#7b2586] dark:text-silver text-[#dae0da] my-3 text-[25px]"
             href="https://github.com/Yassine-MG"
             target="_blank"
           >
             <i className="bi bi-github"></i>
           </a>
           <a
-            className="hover:text-[#cd216e] transition-all duration-300 ease-in-out px-5 dark:hover:text-[#cd216e] dark:text-silver text-darkGray my-3 text-[25px]"
+            className="hover:text-[#cd216e] transition-all duration-300 ease-in-out px-5 dark:hover:text-[#cd216e] dark:text-silver text-[#dae0da] my-3 text-[25px]"
             href="https://www.instagram.com/yassine_mghazli/"
             target="_blank"
           >
             <i className="bi bi-instagram"></i>
           </a>
           <a
-            className="hover:text-[#2ba5da] transition-all duration-300 ease-in-out px-5 dark:hover:text-[#2ba5da] dark:text-silver text-darkGray my-3 text-[25px]"
+            className="hover:text-[#2ba5da] transition-all duration-300 ease-in-out px-5 dark:hover:text-[#2ba5da] dark:text-silver text-[#dae0da] my-3 text-[25px]"
             href="https://twitter.com/YassineMghazli"
             target="_blank"
           >
@@ -130,7 +130,7 @@ export default function Contact() {
         </div>
         <div className="fixed bottom-0 right-0 mr-5 mb-5 ">
           <a href="#">
-            <i className="fa-solid fa-chevron-up transition duration-200 hover:scale-110 hover:bg-[#90909082] bg-orange dark:bg-[#8bc4aa] dark:hover:bg-[#90909082] p-3 text-xs rounded-full hidden md:block"></i>
+            <i className="fa-solid fa-chevron-up transition duration-200 hover:scale-110 hover:bg-[#90909082] bg-orange  dark:hover:bg-[#90909082] p-3 text-xs rounded-full hidden md:block"></i>
           </a>
         </div>
       </footer>

@@ -19,14 +19,29 @@ export default function ResumeProjects() {
   };
 
   return (
-    <section id="portfolio" className="section min-h-[900px]">
+    <section id="portfolio" className="relative section min-h-[900px]">
+      <svg
+        className="lg:block hidden "
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#343333"
+          fill-opacity="1"
+          d="M0,160L1440,32L1440,0L0,0Z"
+        ></path>
+      </svg>
       <div className="container mx-auto">
-        <div className="flex flex-col items-center text-justify md:text-center">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className="flex flex-col items-center text-justify md:text-center"
+        >
           {" "}
-          <h2 className=" dark:text-darkPink text-orange text-4xl ">
-            Projects :
+          <h2 className="mt-[100px] lg:mt-[0px] dark:text-darkPink text-orange text-4xl ">
+            Projects
           </h2>
-          <p className=" subtitle md:w-[80%] lg:w-[60%] dark:text-darkGray text-silver text-lg font-bold p-5 my-6">
+          <p className="subtitle md:w-[80%] lg:w-[60%] dark:text-darkGray text-silver text-lg font-bold p-5 my-6">
             {" "}
             Throughout my web development journey, I have had the opportunity to
             work on a variety of projects that have allowed me to hone my skills

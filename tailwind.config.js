@@ -5,12 +5,12 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        silver: '#abbaab',
+        silver: '#d1cfc6',
         darkGray : '#1b1b1b',
         golde : '#fac156',
-        orange:'#b78092',
+        orange:'#5c81e7',
         beige:'#dae0da',
-        darkPink:"#6f537a"
+        darkPink:"#5d82e7"
       }
     },
   },

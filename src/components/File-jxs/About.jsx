@@ -1,18 +1,16 @@
 import React from "react";
-
 export default function About() {
   return (
-    <div
-      id="About"
-      data-aos="fade-up"
-      data-aos-duration="1500"
-      className="md:mt-30 py-[150px] mb-[200px]"
-    >
-      <h2 className="text-center dark:text-darkPink text-orange text-4xl p-2 mb-[150px]">
-        About Me :
+    <div id="About" className="md:mt-30 mb-[150px]">
+      <h2 className="text-center mt-[100px] dark:text-darkPink text-orange text-4xl p-2 mb-[150px]">
+        About Me
       </h2>
       <div className="lg:flex justify-evenly flex-wrap ">
-        <p className="dark:text-darkGray w-[85%] text-justify font-medium mx-auto md:w-[70%] lg:m-0 md:mb-16 lg:w-[40%] text-lg text-silver">
+        <p
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className=" dark:text-darkGray w-[85%] text-justify font-medium mx-auto md:w-[70%] lg:m-0 md:mb-16 lg:w-[40%] text-lg text-silver"
+        >
           My name is{" "}
           <span className=" font-bold dark:text-darkPink text-orange">
             Yassine Mghazli and I am a Full-Stack Web Developer
@@ -29,7 +27,11 @@ export default function About() {
           presentation.
         </p>
 
-        <div className="dark:text-darkGray text-silver  md:my-0 my-[60px] text-center">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className=" dark:text-darkGray text-silver md:my-0 my-[60px] text-center"
+        >
           <div>
             <i className="hover:text-[#dd4b25] transition-all duration-500 ease-in-out text-7xl px-4 bx bxl-html5"></i>
             <i className="hover:text-[#254bdd] transition-all duration-500 ease-in-out text-7xl px-4 bx bxl-css3"></i>

@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import ResumeProjects from "./ResumeProjects";
 import Contact from "./Contact";
+import Cards from "./Cards";
 export default function Portefolio() {
   // Tout le portefolio
   return (
@@ -11,6 +12,7 @@ export default function Portefolio() {
       <Navbar />
       <Home />
       <About />
+      <Cards />
       <ResumeProjects />
       <Contact />
     </div>

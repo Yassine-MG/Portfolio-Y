@@ -19,12 +19,15 @@ export default function Navbar() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
-    <div className="w-full dark:text-darkGray transition-all duration-500 ease-in z-[8] dark:bg-beige fixed top-0 flex justify-between md:justify-evenly items-center bg-darkGray text-orange">
+    <div className="w-full dark:text-darkGray transition-all duration-500 ease-in z-[8] dark:bg-beige fixed top-0 flex justify-between md:justify-evenly items-center bg-darkGray text-[#dae0da]">
       <h1 className="title py-6 px-8 text-3xl font-light tracking-[5px] italic">
         Yassine
       </h1>
       {/* setting the toggle on the button */}
-      <button className="text-2xl" onClick={handleThemeSwitch}>
+      <button
+        className="transition-all duration-200 hover:text-orange text-2xl"
+        onClick={handleThemeSwitch}
+      >
         {theme === "dark" ? <WiDaySunny /> : <TbMoon />}
       </button>
       <nav>
@@ -39,7 +42,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className="  text-orange dark:text-darkGray dark:hover:text-[#6f537a] hover:text-[#d6bf91] transition-all duration-200 px-5 md:py-3 md:my-2 py-4 block font-semibold"
+              className="  text-[#dae0da] dark:text-darkGray dark:hover:text-orange hover:text-orange transition-all duration-200 px-5 md:py-3 md:my-2 py-4 block font-semibold"
               href="#Home"
             >
               Home
@@ -51,7 +54,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className=" text-orange dark:text-darkGray dark:hover:text-[#6f537a] hover:text-[#d6bf91] transition-all duration-200 px-5  md:py-3 md:my-2 py-4 block font-semibold"
+              className=" text-[#dae0da] dark:text-darkGray dark:hover:text-orange hover:text-orange transition-all duration-200 px-5  md:py-3 md:my-2 py-4 block font-semibold"
               href="#About"
             >
               About
@@ -63,7 +66,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className=" text-orange dark:hover:text-[#6f537a] dark:text-darkGray hover:text-[#d6bf91] transition-all duration-200 px-5  md:py-3 md:my-2 py-4 block font-semibold"
+              className=" text-[#dae0da] dark:hover:text-orange dark:text-darkGray hover:text-orange transition-all duration-200 px-5  md:py-3 md:my-2 py-4 block font-semibold"
               href="#portfolio"
             >
               Projects
@@ -75,7 +78,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className=" md:py-3 dark:text-darkGray dark:hover:text-[#6f537a] hover:text-[#d6bf91] transition-all duration-200 md:my-2 text-orange mr-[20px]  px-5 py-4 block font-semibold"
+              className=" md:py-3 dark:text-darkGray dark:hover:text-orange hover:text-orange transition-all duration-200 md:my-2 text-[#dae0da] mr-[20px]  px-5 py-4 block font-semibold"
               href="#Contact"
             >
               Contact
@@ -88,7 +91,7 @@ export default function Navbar() {
             }}
           >
             <a
-              className="md:py-[10px] md:my-2 px-5 border-[1px] dark:hover:text-[#6f537a] dark:hover:border-darkGray dark:border-transparent hover:scale-110 border-transparent w-[105px] mr-10 transition-all duration-100 rounded-full hover:border-silver py-[10px] block dark:bg-[#90909082] bg-stone-700 text-lg"
+              className="md:py-[10px] md:my-2 px-5 border-[1px] dark:hover:text-orange dark:hover:border-darkGray dark:border-transparent hover:scale-110 border-transparent w-[105px] mr-10 transition-all duration-100 rounded-full hover:border-silver py-[10px] block dark:bg-[#90909082] bg-stone-700 text-lg"
               href="https://yassine-mg.github.io/CVs/"
               target="_blank"
             >
